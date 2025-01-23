@@ -32,3 +32,6 @@ This project is a TikTok-inspired video-sharing application built using **Flutte
 - Frontend: Flutter (Dart)
 - Backend: Firebase (Authentication, Firestore, Cloud Storage)
 - State Management: Provider 
+
+This is an APK:
+https://drive.google.com/file/d/1yBKFOjG79pnm0k6C-BpU68Jp0MDu_FOb/view?usp=sharing
