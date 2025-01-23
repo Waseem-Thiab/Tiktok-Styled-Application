@@ -1,16 +1,34 @@
-# tiktok_style_app
+# TikTok-Style Flutter App
 
-A new Flutter project.
+This project is a TikTok-inspired video-sharing application built using **Flutter** and **Firebase**. The app allows users to upload videos, interact with content, and maintain their own profiles.
+
+## Features
+
+- **Video Interaction:**
+  - Watch short, looped videos with an engaging interface.
+  - Like, comment on, and save videos for later.
+  
+- **Firebase Integration:**
+  - Authentication: User sign-up and login with Firebase Authentication.
+  - Cloud Storage: Efficiently store and retrieve uploaded videos.
+
+- **Pages Overview:**
+  - **Home Page:** Displays a video player with interactive options (like, comment, save).
+  - **Search Page:** Search for videos by caption or other relevant metadata.
+  - **Upload Videos:** Allows users to upload their own content with descriptions and tags.
+  - **Profile Page:** View user details, including liked videos, saved videos, and uploaded content.
+  - **Saved Videos Page:** Access saved videos and play them directly from the list.
+
+- **Navigation Bar:** Includes quick navigation to Home, Search, Upload, Profile, and Saved Videos pages.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Ensure **Flutter** is installed on your system.
+- Set up a **Firebase** project and configure it for your Flutter app.
+- Enable Firebase Authentication and Cloud Storage in your Firebase console.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Technologies Used**
+- Frontend: Flutter (Dart)
+- Backend: Firebase (Authentication, Firestore, Cloud Storage)
+- State Management: Provider 
